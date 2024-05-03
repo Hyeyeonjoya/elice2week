@@ -1,0 +1,72 @@
+  * {
+    margin: 0;
+    padding: 0;
+    } 
+
+header {
+background-color: grey;
+}    
+
+header nav ul {
+    display : flex;
+    margin : 0;
+    padding : 0;
+}    
+
+header nav ul li {
+    list-style: none;
+    padding: 15px;
+}
+
+header nav ul li a {
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+.menu-btn:hover {
+    background-color: darkgrey;
+    letter-spacing: 4px;
+    transition: 1s;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+img {
+    overflow-clip-margin: content-box;
+}
+
+.profile img:hover {
+    width : 320px;
+    height: 320px;
+    transform: scale(1.2);
+    transition: 1s;
+}
+main {
+    padding : 32px;
+    display : block;
+}
+
+footer {
+    padding: 40px;
+    background-color: lightgray;
+    display: block;
+}
+
+.sub-title {
+    font-size: 32px;
+    align : left;
+    padding : 10px 0 ;
+
+}
+
+#cv {
+    display : grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.sub-title ul {
+    padding : 0 0 0 30px;
+}
